@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Autofac" Version="4.9.4" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\BancoDoPovo.Application\BancoDoPovo.Application.csproj" />
+    <ProjectReference Include="..\BancoDoPovo.Domain.Services\BancoDoPovo.Domain.Services.csproj" />
+    <ProjectReference Include="..\BancoDoPovo.Infrastruture.Repository\BancoDoPovo.Infrastruture.Repository.csproj" />
+  </ItemGroup>
+
+</Project>

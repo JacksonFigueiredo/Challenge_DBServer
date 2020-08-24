@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\BancoDoPovo.Application.DTO\BancoDoPovo.Application.DTO.csproj" />
+    <ProjectReference Include="..\BancoDoPovo.Domain.Core\BancoDoPovo.Domain.Core.csproj" />
+    <ProjectReference Include="..\BancoDoPovo.Infrastruture.CrossCutting.Adapter\BancoDoPovo.Infrastruture.CrossCutting.Adapter.csproj" />
+  </ItemGroup>
+
+</Project>
